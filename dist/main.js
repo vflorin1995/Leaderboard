@@ -357,7 +357,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "main {\n    background-color: blue;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".flex {\n    display: flex;\n}\n\n.flex110 {\n    flex: 1 1 0;\n}\n\n.flex-col {\n    flex-direction: column;\n}\n\nli {\n    list-style: none;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
