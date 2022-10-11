@@ -18,12 +18,14 @@
 - To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 - Html & CSS basics
 - Git & Github
 - SSH key for github linked to git on local environment
 - Code compiler
 
 ### Setup
+
 - Click on the green button on the top right corner with the text code
 - Click on SSH
 - Copy the text that appears below
@@ -31,11 +33,9 @@
 
 ### Run tests
 
-- For tracking linters errors locally you need to follow [these steps](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
-- For installing Webpack follow [this tutorial](https://webpack.js.org/guides/getting-started/#basic-setup)
-- For setting up Webpack HTML plugin follow [this tutorial](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin)
-- For setting up Webpack CSS plugin follow [this tutorial](https://webpack.js.org/guides/asset-management/#loading-css)
-- For setting up a LiveServer follow [this tutorial](https://webpack.js.org/guides/development/#using-webpack-dev-server)
+- Install project dependencies (libraries) using npm install command
+- Run webpack build using npm run build command
+- Run webpack dev server using npm run start command
 
 # Authors
 
