@@ -20,6 +20,7 @@ refresh.addEventListener('click', async () => {
         listElement.classList = 'flex';
         const name = document.createElement('li');
         name.innerText = `${element.user}:`;
+        name.classList = 'bold';
         const score = document.createElement('li');
         score.innerText = element.score;
         listElement.append(name, score);
